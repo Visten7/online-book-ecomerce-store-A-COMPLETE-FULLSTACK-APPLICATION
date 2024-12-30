@@ -1,0 +1,88 @@
+{% extends 'store/base.html' %}
+{% load static %}
+{% load customfunction %}
+{% load crispy_forms_tags %}
+
+{% block container %}
+			<div class="row">
+			    <div class="col-md-8 order-md-1 cart_info">
+			        <h4 class="mb-3 mt-3">Shipping Address</h4>
+					{% if messages %}
+					<div class="messages">
+					    {% for message in messages %}
+					    <p{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</p>
+					    {% endfor %}
+					</div>
+					{% endif %}
+			        <form action="" method="POST" class="needs-validation" novalidate="">
+			        	{% csrf_token %}
+			            <div class="row">
+			                <div class="col-md-6 mb-3">
+			                    {{ form.name|as_crispy_field }}
+			                </div>
+			                <div class="col-md-6 mb-3">
+			                  
+			                   	{{ form.email|as_crispy_field }}
+			                </div>
+			            </div>
+	           			<div class="mb-3">
+			                {{ form.phone|as_crispy_field }}
+			            </div>
+
+			            <div class="mb-3">
+			                {{ form.address|as_crispy_field }}
+			            </div>
+			            <div class="row">
+			                <div class="col-md-5 mb-3">
+								{{ form.division|as_crispy_field }}
+			                </div>
+			                <div class="col-md-4 mb-3">
+								{{ form.district|as_crispy_field }}
+			                </div>
+			                <div class="col-md-3 mb-3">
+			                	{{ form.zip_code|as_crispy_field }}
+			                </div>
+			            </div>
+			            <hr class="mb-4">
+						<label for="payment-method">Select Payment Method:</label>
+						<select id="payment-method">
+							<option>Select method</option>
+							<option value="credit-card">Credit Card</option>
+							<option value="debit-card">Debit Card</option>
+							<option value="cash">Cash</option>
+						</select>
+						<div id="card-details" style="display: none;">
+							<label for="card-number">Card Number:</label>
+							<input type="text" id="card-number" name="card-number" placeholder="Enter card number...">
+							<label for="expiry-date">Expiry Date:</label>
+							<input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY">
+							<label for="cvv">CVV:</label>
+							<input type="number" id="cvv" name="cvv" placeholder="Enter CVV...">
+						</div>
+			            <hr class="mb-4">
+			            <button class="btn btn-success btn-block" type="submit" style="margin-bottom: 20px">Continue to checkout</button>
+			        </form>
+			    </div>
+			    <div class="col-md-4 order-md-2 mb-4">
+					<ul class="list-group">
+						<li class="list-group-item d-flex justify-content-between align-items-center"><h4>Checkout Summary</h4></li>
+						<li class="list-group-item d-flex justify-content-between align-items-center">Books<span>{{ cart|length }}</span></li>
+						<li class="list-group-item d-flex justify-content-between align-items-center">Subtotal<span>€{{ cart.get_total_price }}</span></li>
+						<li class="list-group-item d-flex justify-content-between align-items-center">Shipping<span>€{{ cost|shipping }}</span></li>
+						<li class="list-group-item d-flex justify-content-between align-items-center">Payable Total<span>€{{ cart.get_total_price|payabletotal}}</span></li>
+					</ul>
+			    </div>
+			</div>
+	<script>
+		var paymentMethodSelect = document.getElementById("payment-method");
+		var cardDetails = document.getElementById("card-details");
+
+		paymentMethodSelect.addEventListener("change", function() {
+			if (paymentMethodSelect.value == "credit-card" || paymentMethodSelect.value == "debit-card") {
+				cardDetails.style.display = "block";
+			} else {
+				cardDetails.style.display = "none";
+			}
+		});
+	</script>
+		{% endblock %}

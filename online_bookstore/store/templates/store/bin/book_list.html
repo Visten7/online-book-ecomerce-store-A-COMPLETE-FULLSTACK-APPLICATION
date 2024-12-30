@@ -1,0 +1,33 @@
+{% extends 'store/base.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% load customfunction %}
+{% block container %}
+<div class="app-book module">
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Stock</th>
+                <th>Status</th>
+                <th>Created</th>
+                <th>Updated</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for obj in queryset %}
+            <tr>
+                <td>{{ obj.name }}</td>
+                <td>{{ obj.price }}</td>
+                <td>{{ obj.stock }}</td>
+                <td>{{ obj.status }}</td>
+                <td>{{ obj.created }}</td>
+                <td>{{ obj.updated }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}

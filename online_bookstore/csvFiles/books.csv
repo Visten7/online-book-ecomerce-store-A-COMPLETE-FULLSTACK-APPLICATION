@@ -1,0 +1,43 @@
+id,name,slug,price,stock,coverpage,bookpage,created,updated,totalreview,totalrating,status,description,category_id,writer_id
+13,Introduction to computer science,introduction-computer-science,10,20,coverpage/computer1.jpg,bookpage/computer1.jpg,2021-05-20 03:25:12.875338,2021-05-20 03:25:12.875338,1,5,0,Best Introduction about Computer Science,1,6
+14,Computer Science Illuminated,computer-science-illuminated,10,20,coverpage/computer2.jpg,bookpage/computer2.jpg,2021-05-20 03:26:48.975736,2021-05-20 03:26:48.975736,1,5,0,Best Computer Science Illuminated Books,1,1
+15,Computer Science C++ Book,computer-science-c-book,10,20,coverpage/computer3.jpg,bookpage/computer3.jpg,2021-05-20 03:30:58.897356,2021-05-20 03:30:58.897356,1,5,0,Best Computer Science C++ Book,1,1
+16,Computer Science First Edition,computer-science-first-edition,10,20,coverpage/computer4.jpg,bookpage/computer4.jpg,2021-05-20 03:32:10.910672,2021-05-20 03:32:10.910672,1,5,0,Best Computer Science First Edition,1,1
+17,Harry Potter,harry-potter,10,20,coverpage/sci4.jpg,bookpage/sci4.jpg,2021-05-20 03:38:24.924428,2021-05-20 03:38:24.924428,1,5,0,Best Harry Potter Books,2,2
+18,The Fifth Sea Stone,fifth-sea-stone,10,20,coverpage/sci3.jpg,bookpage/sci3.jpg,2021-05-20 03:39:51.141238,2021-05-20 03:39:51.141238,1,5,0,Best The Fifth Sea Stone Books,2,2
+19,The Pratchett,pratchett,10,20,coverpage/sci1.jpg,bookpage/sci2.jpg,2021-05-20 03:40:51.689110,2021-05-20 03:40:51.689110,1,5,0,Best The Pratchett Book,2,2
+20,Anatomy,anatomy,10,20,coverpage/art.webp,bookpage/art.webp,2021-05-20 03:41:50.692071,2021-05-20 03:41:50.692071,1,5,0,The Best Boo about anatomy,3,3
+21,The World According to Roger Ballen,world-according-roger-ballen,10,20,coverpage/art1.jpg,bookpage/art1.jpg,2021-05-20 03:43:11.058924,2021-05-20 03:43:11.058924,1,5,0,The Best Book about The World According to Roger Ballen,3,3
+22,Women Street Photographers,women-street-photographers,10,20,coverpage/art2.jpg,bookpage/art2.jpg,2021-05-20 03:51:59.109789,2021-05-20 03:51:59.109789,1,5,0,the Best book for Art and Photography,3,4
+23,Mona,mona,10,20,coverpage/art3.jpg,bookpage/art3.jpg,2021-05-20 03:52:52.035765,2021-05-20 03:52:52.035765,1,5,0,the best book about art and photography,3,3
+24,Secret of the Rich and Successful,secret-rich-and-successful,30,20,coverpage/business.png,bookpage/business.png,2021-05-20 03:54:11.382218,2021-05-20 03:54:11.382218,1,5,0,The Best book for Business and Money,4,4
+25,The Psychology Money,psychology-money,30,20,coverpage/business1.webp,bookpage/business1.webp,2021-05-20 03:55:12.733074,2021-05-20 03:55:12.733074,1,5,0,The Best book for business and Money,4,4
+26,Rich Dad and Poor Dad,rich-dad-and-poor-dad,25,20,coverpage/business2.png,bookpage/business2.png,2021-05-20 03:56:13.260771,2021-05-20 03:56:13.260771,1,5,0,the best book for business and money,4,4
+27,The Girl on The Train,girl-train,35,20,coverpage/mytery1.jpg,bookpage/mytery1.jpg,2021-05-20 03:57:33.094984,2021-05-20 03:57:33.094984,1,5,0,The Best for Mystery and Suspense,5,5
+28,The woman in the window,woman-window,50,20,coverpage/mystery4.jpg,bookpage/mystery4.jpg,2021-05-20 03:58:48.320352,2021-05-20 03:58:48.321349,1,5,0,The Best book for mystery and suspense,5,5
+29,21 First Birthday,21-first-birthday,20,20,coverpage/mystery2.jpg,bookpage/mystery2.jpg,2021-05-20 03:59:48.827167,2021-05-20 03:59:48.828167,1,5,0,The Best Book for 21 First Birthday,5,5
+30,Liane Moriarty,liane-moriarty,34,20,coverpage/mystery3.jpg,bookpage/mystery3.jpg,2021-05-20 04:01:16.932584,2021-05-20 04:01:16.933582,1,5,0,The Best for Mystery and Suspense,5,5
+31,Joy of Cooking,joy-cooking,50,20,coverpage/cook4.jpg,bookpage/cook4.jpg,2021-05-20 04:02:30.314973,2021-05-20 04:02:30.314973,1,5,0,The Best Book For CookBooks and Foods,6,6
+32,Dessert Person,dessert-person,30,20,coverpage/cook1.jpg,bookpage/cook1.jpg,2021-05-20 04:03:21.912519,2021-05-20 04:03:21.912519,1,5,0,The Best Book For CookBooks and Foods,6,6
+33,Bibi's Kitchen,bibis-kitchen,30,20,coverpage/cook3.jpg,bookpage/cook3.jpg,2021-05-20 04:04:56.689780,2021-05-20 04:04:56.689780,1,5,0,The Best book for cookbooks and Foods,6,6
+34,Modern Comfort Food,modern-comfort-food,40,20,coverpage/cook2.jpg,bookpage/cook2.jpg,2021-05-20 04:06:08.433643,2021-05-20 04:06:08.433643,1,5,0,The Best book for cookbooks and Foods,6,5
+35,The Lord of the Rings,lord-rings,50,20,coverpage/fiction.jpg,bookpage/fiction.jpg,2021-05-20 04:07:25.733243,2021-05-20 04:07:25.734242,1,5,0,The Best Book for Literature and Fiction,7,2
+36,Price and Prejudice,price-and-prejudice,20,20,coverpage/fiction1.jpg,bookpage/fiction1.jpg,2021-05-20 04:08:20.986560,2021-05-20 04:08:20.986560,1,5,0,The Best Book for Literature and Fiction,7,2
+37,The Catcher in the Rye,catcher-rye,30,20,coverpage/fiction2.jpg,bookpage/fiction2.jpg,2021-05-20 04:09:17.503737,2021-05-20 04:09:17.503737,1,5,0,The Best Book for Literature and Fiction,7,5
+38,Hand Maids Tale,hand-maids-tale,50,20,coverpage/fiction3.jpg,bookpage/fiction3.jpg,2021-05-20 04:10:09.226563,2021-05-20 04:10:09.237546,1,5,0,The Best Book for Literature and Fiction,7,4
+39,Genghis Khan,genghis-khan,6000,20,coverpage/history3.jpg,bookpage/history3.jpg,2021-05-20 04:11:15.927617,2021-05-20 04:11:15.927617,1,5,0,The Best for History,8,1
+40,Caste the origin of discontent,caste-origin-discontent,2090,20,coverpage/history4.jpg,bookpage/history4.jpg,2021-05-20 04:12:40.700254,2021-05-20 04:12:40.7254,1,5,0,The Best Book for History,8,3
+41,Cat Kid,cat-kid,50,30,coverpage/comics1.jpg,bookpage/comics1.jpg,2021-05-20 04:13:39.068005,2021-05-20 04:13:39.068005,1,5,0,The Best book for kids comics,9,6
+42,Dog Man,dog-man,20,30,coverpage/comics2.jpg,bookpage/comics2.jpg,2021-05-20 04:14:16.743430,2021-05-20 04:14:16.744431,1,5,0,The Best Book for History,9,5
+43,Nimona,nimona,50,30,coverpage/comics3.jpg,bookpage/comics3.jpg,2021-05-20 04:14:54.389041,2021-05-20 04:14:54.389041,1,5,0,The Best Book for History,9,4
+44,The Troll,troll,60,30,coverpage/comics4.jpg,bookpage/comics4.jpg,2021-05-20 04:15:36.779233,2021-05-20 04:15:36.779233,1,5,0,The Best Book for History,9,1
+45,People we Meet on Vacation,people-we-meet-vacation,40,20,coverpage/rom1.jpg,bookpage/rom1.jpg,2021-05-20 04:16:46.042023,2021-05-20 04:16:46.042023,1,5,0,The best Book for Romance,10,2
+46,The Hating game,hating-game,30,20,coverpage/rom3.jpg,bookpage/rom3.jpg,2021-05-20 04:17:36.892602,2021-05-20 04:17:36.892602,1,5,0,The best Book for Romance,10,5
+47,Fifty Shades of Grey,fifty-shades-grey,1,20,coverpage/rom4.jpg,bookpage/rom4.jpg,2021-05-20 04:46:08.390792,2021-05-20 04:46:08.390792,1,5,0,The best Book for Romance,10,6
+48,Julia Quinn,julia-quinn,50,20,coverpage/rom2.jpg,bookpage/rom2.jpg,2021-05-20 04:47:30.576847,2021-05-20 04:47:30.576847,1,5,0,The best Book for Romance,10,3
+49,Sapiens,sapiens,40,30,coverpage/sapiens1.jpg,bookpage/sapiens1.jpg,2021-05-20 04:48:44.455760,2021-05-20 04:48:44.455760,1,5,0,The Best Book for History,8,2
+50,The Guns of August,guns-august,50,30,coverpage/sapiens2.jpg,bookpage/sapiens2.jpg,2021-05-20 04:50:11.786369,2021-05-20 04:50:11.786369,1,5,0,The best Book for History,8,6
+51,Untamed,untamed,30,20,coverpage/bio1.jpg,bookpage/bio1.jpg,2021-05-20 04:51:37.195894,2021-05-20 04:51:37.195894,1,5,0,The best Book for Biographies and Memories,11,4
+52,Becoming,becoming,30,20,coverpage/bio2.jpg,bookpage/bio2.jpg,2021-05-20 04:52:32.734791,2021-05-20 04:52:32.734791,1,5,0,The best Book for Biographies and Memories,11,5
+53,Greenlights,greenlights,60,20,coverpage/bio3.jpg,bookpage/bio3.jpg,2021-05-20 04:54:03.522717,2021-05-20 04:54:03.522717,1,5,0,The best Book for Biographies and Memories,11,4
+54,Educated,educated,30,20,coverpage/bio4.jpg,bookpage/bio4.jpg,2021-05-20 04:54:46.100126,2021-05-20 04:54:46.100126,1,5,0,The best Book for Biographies and Memories,11,2
